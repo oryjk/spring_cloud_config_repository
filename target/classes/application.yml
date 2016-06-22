@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/oryjk/spring_cloud_config_repository.git
+server:
+  port: 9999
